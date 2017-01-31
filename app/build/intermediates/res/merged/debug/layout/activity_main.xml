@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.quizforjava.MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="@dimen/padding_large"
+        android:background="@color/colorPrimary"
+        android:paddingBottom="@dimen/padding_large">
+
+        <TextView
+            style="@style/titleTheme"
+            android:textSize="@dimen/text_size_large"
+            android:paddingLeft="@dimen/padding_large"
+            android:text="@string/tx_java_quiz"
+            />
+        <TextView
+            style="@style/titleTheme"
+            android:text="@string/tx_practice"
+            android:paddingLeft="@dimen/padding_large"
+            android:textSize="@dimen/text_size_medium"/>
+    </LinearLayout>
+
+
+    <EditText
+        android:layout_marginTop="@dimen/padding_medium"
+        android:layout_marginBottom="@dimen/padding_small"
+        android:layout_marginLeft="@dimen/padding_medium"
+        android:layout_marginRight="@dimen/padding_medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimarytext"
+        android:gravity="center_horizontal"
+        android:id="@+id/et_name"
+        android:hint="@string/et_name"/>
+
+    <RadioGroup
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:gravity="center_horizontal"
+        android:id="@+id/rb_gender_group"
+        android:orientation="horizontal">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/padding_small"
+            android:layout_marginRight="@dimen/padding_small"
+            android:text="@string/rb_male"
+            android:onClick="rb_gender"
+            android:id="@+id/rb_male"
+            />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/padding_small"
+            android:onClick="rb_gender"
+            android:text="@string/rb_female"
+            android:id="@+id/rb_female"
+            />
+    </RadioGroup>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/padding_small"
+        android:text="@string/btn_begin"
+        android:onClick="btn_start"
+        android:layout_gravity="center_horizontal"/>
+</LinearLayout>

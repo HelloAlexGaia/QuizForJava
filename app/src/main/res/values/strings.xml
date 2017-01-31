@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Quiz For Java</string>
+    <string name="quiz_one">What is the difference between Collection and Collections?</string>
+    <string name="quiz_two">How many objects would generate if String s = new String("xyz") was executed?</string>
+    <string name="quiz_three">What are the results of Math.round(11.5) and Math.round(-11.5)?</string>
+    <string name="quiz_four">Which method is correct to enable a thread, run() or start()?</string>
+    <string name="quiz_five">Can constructor method be override or overload?</string>
+    <string name="answer_one_for_quiz_one">Collection is an interface, Collections is a class.</string>
+    <string name="answer_two_for_quiz_one">Collection is a class, Collections is an interface.</string>
+    <string name="answer_three_for_quiz_one">They are both classes.</string>
+    <string name="answer_four_for_quiz_one">They are both interfaces.</string>
+    <string name="answer_one_for_quiz_two">one</string>
+    <string name="answer_two_for_quiz_two">two</string>
+    <string name="answer_three_for_quiz_two">three</string>
+    <string name="answer_four_for_quiz_two">four</string>
+    <string name="answer_one_for_quiz_three">11,-11</string>
+    <string name="answer_two_for_quiz_three">12,-11</string>
+    <string name="answer_three_for_quiz_three">11,-12</string>
+    <string name="answer_four_for_quiz_three">12,-12</string>
+    <string name="answer_one_for_quiz_four">run()</string>
+    <string name="answer_two_for_quiz_four">start()</string>
+    <string name="answer_three_for_quiz_four">They both can.</string>
+    <string name="answer_four_for_quiz_four">Neither of them can.</string>
+    <string name="answer_one_for_quiz_five">It can be override.</string>
+    <string name="answer_two_for_quiz_five">It can be overload.</string>
+    <string name="answer_three_for_quiz_five">It can be override and overload.</string>
+    <string name="answer_four_for_quiz_five">It can not be override or overload.</string>
+    <string name="et_name">NAME</string>
+    <string name="rb_male">Male</string>
+    <string name="rb_female">Female</string>
+    <string name="tx_java_quiz">java quiz</string>
+    <string name="tx_practice">let\'s practice!</string>
+    <string name="btn_next">next</string>
+    <string name="btn_submit">submit</string>
+    <string name="btn_begin">BEGIN</string>
+    <string name="enter_information">enter your personal information!</string>
+    <string name="btn_again">AGAIN</string>
+
+
+</resources>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              xmlns:tools="http://schemas.android.com/tools">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_question_number"
+        tools:text="Question 1"
+        android:textSize="@dimen/text_size_medium"
+        android:paddingLeft="@dimen/padding_small"
+        android:paddingTop="@dimen/padding_small"
+        android:paddingBottom="@dimen/padding_small"
+        android:background="@color/colorPrimary"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_question_text"
+        android:textColor="@color/colorPrimarytext"
+        android:textSize="@dimen/text_size_small"
+        android:paddingLeft="@dimen/padding_medium"
+        android:paddingRight="@dimen/padding_small"
+        android:gravity="center_horizontal"
+        android:paddingTop="@dimen/padding_medium"
+        android:paddingBottom="@dimen/padding_medium"
+        android:background="@color/colorPrimarylight"
+        tools:text="@string/quiz_one"/>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/answer_group">
+        <RadioButton
+            android:layout_marginTop="@dimen/padding_medium"
+            android:onClick="onAnswerChoose"
+            android:id="@+id/rb_anwers_one"
+            tools:text="@string/answer_one_for_quiz_one"
+            style="@style/style_radio_button"/>
+        <RadioButton
+            style="@style/style_radio_button"
+            android:layout_marginTop="@dimen/padding_very_small"
+            android:onClick="onAnswerChoose"
+            android:id="@+id/rb_anwers_two"
+            tools:text="@string/answer_two_for_quiz_one"
+            />
+        <RadioButton
+            style="@style/style_radio_button"
+            android:layout_marginTop="@dimen/padding_very_small"
+            android:onClick="onAnswerChoose"
+            android:id="@+id/rb_anwers_three"
+            tools:text="@string/answer_three_for_quiz_one"
+            />
+        <RadioButton
+            style="@style/style_radio_button"
+            android:id="@+id/rb_anwers_four"
+            android:layout_marginTop="@dimen/padding_very_small"
+            android:onClick="onAnswerChoose"
+            tools:text="@string/answer_four_for_quiz_one"
+            />
+    </RadioGroup>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/padding_small"
+        android:layout_marginBottom="@dimen/padding_small">
+
+        <Button
+            android:text="@string/btn_next"
+            android:id="@+id/btn_next"
+            android:layout_marginLeft="@dimen/padding_large"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:onClick="btn_next"
+            style="@style/button_style"/>
+
+        <Button
+            style="@style/button_style"
+            android:id="@+id/btn_submit"
+            android:layout_marginRight="@dimen/padding_large"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:text="@string/btn_submit"
+            android:onClick="btn_submit"
+            />
+
+    </RelativeLayout>
+<Button
+    style="@style/button_style"
+    android:text="@string/btn_again"
+    android:layout_marginTop="@dimen/padding_small"
+    android:layout_gravity="center_horizontal"
+    android:onClick="btn_again"
+    />
+</LinearLayout>

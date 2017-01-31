@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="answers_for_quiz_one">
+        <item>@string/answer_one_for_quiz_one</item>
+        <item>@string/answer_two_for_quiz_one</item>
+        <item>@string/answer_three_for_quiz_one</item>
+        <item>@string/answer_four_for_quiz_one</item>
+    </string-array>
+    <string-array name="answers_for_quiz_two">
+        <item>@string/answer_one_for_quiz_two</item>
+        <item>@string/answer_two_for_quiz_two</item>
+        <item>@string/answer_three_for_quiz_two</item>
+        <item>@string/answer_four_for_quiz_two</item>
+    </string-array>
+    <string-array name="answers_for_quiz_three">
+        <item>@string/answer_one_for_quiz_three</item>
+        <item>@string/answer_two_for_quiz_three</item>
+        <item>@string/answer_three_for_quiz_three</item>
+        <item>@string/answer_four_for_quiz_three</item>
+    </string-array>
+    <string-array name="answers_for_quiz_four">
+        <item>@string/answer_one_for_quiz_four</item>
+        <item>@string/answer_two_for_quiz_four</item>
+        <item>@string/answer_three_for_quiz_four</item>
+        <item>@string/answer_four_for_quiz_four</item>
+    </string-array>
+    <string-array name="answers_for_quiz_five">
+        <item>@string/answer_one_for_quiz_five</item>
+        <item>@string/answer_two_for_quiz_five</item>
+        <item>@string/answer_three_for_quiz_five</item>
+        <item>@string/answer_four_for_quiz_five</item>
+    </string-array>
+</resources>

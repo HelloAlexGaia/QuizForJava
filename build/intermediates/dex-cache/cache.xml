@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="D:\androidLearning\QuizForJava\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="D:\androidLearning\QuizForJava\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-24.2.1_e47bc424e2a5b26ceca3de0507e0025878130ad1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\androidLearning\QuizForJava\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="D:\androidLearning\QuizForJava\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_42c8d72a9be867be0ef0593055351ed4126b398f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\androidLearning\QuizForJava\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="096ccd611592b04440f7c856137034fb11032df4">
+        <dex dex="D:\androidLearning\QuizForJava\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_2a7c62b6cf3e9dced20d7f589341891a19562eaa\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\androidLearning\QuizForJava\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="D:\androidLearning\QuizForJava\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_d44f0deefd9245d3a862bc04d1982ac698f32ae5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\androidLearning\QuizForJava\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="D:\androidLearning\QuizForJava\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-24.2.1_4b559678e57f26a418382ab4b76ae021ffe4504b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\androidLearning\QuizForJava\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="D:\androidLearning\QuizForJava\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_7d6c1b9465de59a9ed8d87280ac8e5fb0bb06344\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\androidLearning\QuizForJava\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="D:\androidLearning\QuizForJava\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_2195b48734a5ccd4408b24fcb4a789f310079f1a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\androidLearning\QuizForJava\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="c93faefb643693326c504857cd0a2d62b94b0446">
+        <dex dex="D:\androidLearning\QuizForJava\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_04952ae6bd31f5a78e0f61cfe267512867a915b1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\androidLearning\QuizForJava\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="D:\androidLearning\QuizForJava\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.2.1_e5445e4b61bd602b887dd7d41502d8d4e5eee9ad\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\androidLearning\QuizForJava\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="D:\androidLearning\QuizForJava\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-24.2.1_51ff9614ac42ceaaa694cafd4e4f94aedde32902\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\androidLearning\QuizForJava\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="D:\androidLearning\QuizForJava\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-24.2.1_ba031577a6f0f63402b12512ae4d5adda465f821\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\androidLearning\QuizForJava\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="D:\androidLearning\QuizForJava\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-24.2.1_eb82394cf4e8b9b17cc787e0eb54d74c81416253\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\androidLearning\QuizForJava\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="D:\androidLearning\QuizForJava\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-24.2.1_4256cb24fec9b35d29622ce7ebe3b8a7a1c18537\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\androidLearning\QuizForJava\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="D:\androidLearning\QuizForJava\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-24.2.1_1242f0cb540fa6c7216120f091f08a9f2e97a58d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\AlexGaia\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.1\support-annotations-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="D:\androidLearning\QuizForJava\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.2.1_d8fdc893992a2a1475d3465a24941492d5bdc36f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\androidLearning\QuizForJava\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="D:\androidLearning\QuizForJava\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-24.2.1_5761e6f68901d6b1b8508586388a194db0182db8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\androidLearning\QuizForJava\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="D:\androidLearning\QuizForJava\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_6138fe2b8ec6be9404a534b14d839a55d71cb35d\classes.dex" />
+    </item>
+
+</items>
