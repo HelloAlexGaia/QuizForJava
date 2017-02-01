@@ -18,12 +18,18 @@ public class MainActivity extends AppCompatActivity {
     private String mGender = null;
     private EditText metName;
     private RadioGroup mRbGender;
+    private final String SAVENAME="name";
+    private final String SAVEGENDER="gender";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         initial();
+        if (savedInstanceState!=null){
+            mName=savedInstanceState.getString(SAVENAME);
+            mGender=savedInstanceState.getString(SAVEGENDER);
+        }
     }
 
     public void btn_start(View view) {
@@ -35,6 +41,13 @@ public class MainActivity extends AppCompatActivity {
         } else {
             Toast.makeText(getBaseContext(), getString(R.string.enter_information), Toast.LENGTH_SHORT).show();
         }
+    }
+
+    @Override
+    protected void onSaveInstanceState(Bundle outState) {
+        super.onSaveInstanceState(outState);
+        outState.putString(SAVENAME,mName);
+        outState.putString(SAVEGENDER,mGender);
     }
 
     private void initial() {
@@ -58,19 +71,6 @@ public class MainActivity extends AppCompatActivity {
         mRbGender = (RadioGroup) findViewById(R.id.rb_gender_group);
     }
 
-    public void clear(){
-        metName.setText("");
-        mRbGender.clearCheck();
-    }
-
-    @Override
-    protected void onPause() {
-        super.onPause();
-        clear();
-        mName=null;
-        mGender=null;
-    }
-
     public void rb_gender(View view) {
         RadioButton radioButton = (RadioButton) view;
         boolean statue = radioButton.isChecked();
@@ -86,7 +86,5 @@ public class MainActivity extends AppCompatActivity {
                 }
                 break;
         }
-
     }
-
 }
