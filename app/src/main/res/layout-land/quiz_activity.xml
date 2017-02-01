@@ -100,11 +100,14 @@
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentStart="true"
                 android:layout_marginStart="72dp"/>
+            <Button
+                style="@style/button_style"
+                android:layout_gravity="center_horizontal"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:onClick="btn_again"
+                android:text="@string/btn_again"/>
+
         </RelativeLayout>
-        <Button
-            style="@style/button_style"
-            android:layout_gravity="center_horizontal"
-            android:onClick="btn_again"
-            android:text="@string/btn_again"/>
     </LinearLayout>
 </ScrollView>

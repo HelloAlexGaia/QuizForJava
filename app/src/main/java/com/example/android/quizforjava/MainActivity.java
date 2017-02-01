@@ -58,6 +58,19 @@ public class MainActivity extends AppCompatActivity {
         mRbGender = (RadioGroup) findViewById(R.id.rb_gender_group);
     }
 
+    public void clear(){
+        metName.setText("");
+        mRbGender.clearCheck();
+    }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+        clear();
+        mName=null;
+        mGender=null;
+    }
+
     public void rb_gender(View view) {
         RadioButton radioButton = (RadioButton) view;
         boolean statue = radioButton.isChecked();

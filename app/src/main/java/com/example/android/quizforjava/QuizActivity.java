@@ -25,12 +25,28 @@ public class QuizActivity extends AppCompatActivity {
     private RadioButton mAnswertwo;
     private RadioButton mAnswerthree;
     private RadioButton mAnswerfour;
-
+    private final String SAVENAME="name";
+    private final String SAVEANSWER="answer";
+    private final String SAVEINDEX="index";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.quiz_activity);
         intitial();
+        if (savedInstanceState!=null){
+            mName=savedInstanceState.getString(SAVENAME);
+            answerIndex=savedInstanceState.getIntArray(SAVEANSWER);
+            mCurrentIndex=savedInstanceState.getInt(SAVEINDEX);
+        }
+        setQuizAndAnswer(mCurrentIndex);
+    }
+
+    @Override
+    protected void onSaveInstanceState(Bundle outState) {
+        super.onSaveInstanceState(outState);
+        outState.putString(SAVENAME,mName);
+        outState.putIntArray(SAVEANSWER,answerIndex);
+        outState.putInt(SAVEINDEX,mCurrentIndex);
     }
 
     public void onAnswerChoose(View view) {
@@ -117,7 +133,6 @@ public class QuizActivity extends AppCompatActivity {
         rightAnswer = new int[]{1, 2, 2, 2, 2};
         setData();
         initialWidget();
-        setQuizAndAnswer(mCurrentIndex);
     }
 
     private void initialWidget() {
