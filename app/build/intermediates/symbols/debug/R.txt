@@ -524,8 +524,8 @@ int id always 0x7f0c001d
 int id answer_group 0x7f0c0067
 int id beginning 0x7f0c001a
 int id bottom 0x7f0c0022
-int id btn_next 0x7f0c006c
-int id btn_submit 0x7f0c006d
+int id btn_next 0x7f0c006d
+int id btn_submit 0x7f0c006c
 int id buttonPanel 0x7f0c002e
 int id cancel_action 0x7f0c0059
 int id checkbox 0x7f0c003c

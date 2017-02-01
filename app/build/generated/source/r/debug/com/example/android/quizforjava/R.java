@@ -1819,8 +1819,8 @@ containing a value of this type.
         public static final int answer_group=0x7f0c0067;
         public static final int beginning=0x7f0c001a;
         public static final int bottom=0x7f0c0022;
-        public static final int btn_next=0x7f0c006c;
-        public static final int btn_submit=0x7f0c006d;
+        public static final int btn_next=0x7f0c006d;
+        public static final int btn_submit=0x7f0c006c;
         public static final int buttonPanel=0x7f0c002e;
         public static final int cancel_action=0x7f0c0059;
         public static final int checkbox=0x7f0c003c;
