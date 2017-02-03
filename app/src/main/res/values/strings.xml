@@ -1,10 +1,12 @@
 <resources>
     <string name="app_name">Quiz For Java</string>
     <string name="quiz_one">What is the difference between Collection and Collections?</string>
-    <string name="quiz_two">How many objects would generate if String s = new String("xyz") was executed?</string>
+    <string name="quiz_two">How many objects would be generated if String s = new String("xyz") was executed?</string>
     <string name="quiz_three">What are the results of Math.round(11.5) and Math.round(-11.5)?</string>
     <string name="quiz_four">Which method is correct to enable a thread, run() or start()?</string>
     <string name="quiz_five">Can constructor method be override or overload?</string>
+    <string name="quiz_six">Which of the followings have access to protected?</string>
+    <string name="quiz_seven">What is the answer of \"udacity\".substring(3,5)?</string>
     <string name="answer_one_for_quiz_one">Collection is an interface, Collections is a class.</string>
     <string name="answer_two_for_quiz_one">Collection is a class, Collections is an interface.</string>
     <string name="answer_three_for_quiz_one">They are both classes.</string>
@@ -25,6 +27,10 @@
     <string name="answer_two_for_quiz_five">It can be overload.</string>
     <string name="answer_three_for_quiz_five">It can be override and overload.</string>
     <string name="answer_four_for_quiz_five">It can not be override or overload.</string>
+    <string name="answer_one_for_quiz_six">The current class.</string>
+    <string name="answer_two_for_quiz_six">The same package.</string>
+    <string name="answer_three_for_quiz_six">Subclass.</string>
+    <string name="answer_four_for_quiz_six">another package.</string>
     <string name="et_name">NAME</string>
     <string name="rb_male">Male</string>
     <string name="rb_female">Female</string>
@@ -35,6 +41,10 @@
     <string name="btn_begin">BEGIN</string>
     <string name="enter_information">enter your personal information!</string>
     <string name="btn_again">AGAIN</string>
+    <string name="et_input_hint">Enter here</string>
+    <string name="string_ans_for_quiz_seven">ci</string>
+    <string name="no_more_quiz">no more Quiz</string>
+    <string name="Question">Question </string>
 
 
 </resources>

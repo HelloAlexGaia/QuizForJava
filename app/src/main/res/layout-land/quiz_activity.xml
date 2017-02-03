@@ -35,43 +35,80 @@
             android:textSize="@dimen/text_size_small"
             tools:text="@string/quiz_one"/>
 
-        <RadioGroup
-            android:id="@+id/answer_group"
+        <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
-
-            <RadioButton
-                android:id="@+id/rb_anwers_one"
-                style="@style/style_radio_button"
-                android:layout_marginTop="@dimen/padding_medium"
-                android:onClick="onAnswerChoose"
-                tools:text="@string/answer_one_for_quiz_one"/>
-
-            <RadioButton
-                android:id="@+id/rb_anwers_two"
-                style="@style/style_radio_button"
-                android:layout_marginTop="@dimen/padding_very_small"
-                android:onClick="onAnswerChoose"
-                tools:text="@string/answer_two_for_quiz_one"
+            android:layout_height="wrap_content">
+            <RadioGroup
+                android:id="@+id/answer_group"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <RadioButton
+                    android:id="@+id/rb_anwers_one"
+                    style="@style/style_radio_button"
+                    android:layout_marginTop="@dimen/padding_medium"
+                    android:onClick="onAnswerChoose"
+                    tools:text="@string/answer_one_for_quiz_one"/>
+                <RadioButton
+                    android:id="@+id/rb_anwers_two"
+                    style="@style/style_radio_button"
+                    android:layout_marginTop="@dimen/padding_very_small"
+                    android:onClick="onAnswerChoose"
+                    tools:text="@string/answer_two_for_quiz_one"
+                    />
+                <RadioButton
+                    android:id="@+id/rb_anwers_three"
+                    style="@style/style_radio_button"
+                    android:layout_marginTop="@dimen/padding_very_small"
+                    android:onClick="onAnswerChoose"
+                    tools:text="@string/answer_three_for_quiz_one"
+                    />
+                <RadioButton
+                    android:id="@+id/rb_anwers_four"
+                    style="@style/style_radio_button"
+                    android:layout_marginTop="@dimen/padding_very_small"
+                    android:onClick="onAnswerChoose"
+                    tools:text="@string/answer_four_for_quiz_one"
+                    />
+            </RadioGroup>
+            <LinearLayout
+                android:id="@+id/linear_layout_checkbox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <CheckBox
+                    style="@style/style_radio_button"
+                    android:layout_marginTop="@dimen/padding_medium"
+                    android:id="@+id/cb_answer_one"
+                    android:onClick="cbOnAnswerChoose"/>
+                <CheckBox
+                    style="@style/style_radio_button"
+                    android:layout_marginTop="@dimen/padding_very_small"
+                    android:id="@+id/cb_answer_two"
+                    android:onClick="cbOnAnswerChoose"/>
+                <CheckBox
+                    style="@style/style_radio_button"
+                    android:layout_marginTop="@dimen/padding_very_small"
+                    android:id="@+id/cb_answer_three"
+                    android:onClick="cbOnAnswerChoose"/>
+                <CheckBox
+                    style="@style/style_radio_button"
+                    android:layout_marginTop="@dimen/padding_very_small"
+                    android:id="@+id/cb_answer_four"
+                    android:onClick="cbOnAnswerChoose"/>
+            </LinearLayout>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:hint="@string/et_input_hint"
+                android:inputType="text"
+                android:id="@+id/et_answer"
                 />
-
-            <RadioButton
-                android:id="@+id/rb_anwers_three"
-                style="@style/style_radio_button"
-                android:layout_marginTop="@dimen/padding_very_small"
-                android:onClick="onAnswerChoose"
-                tools:text="@string/answer_three_for_quiz_one"
-                />
-
-            <RadioButton
-                android:id="@+id/rb_anwers_four"
-                style="@style/style_radio_button"
-                android:layout_marginTop="@dimen/padding_very_small"
-                android:onClick="onAnswerChoose"
-                tools:text="@string/answer_four_for_quiz_one"
-                />
-        </RadioGroup>
+        </RelativeLayout>
 
         <RelativeLayout
             android:layout_width="match_parent"
